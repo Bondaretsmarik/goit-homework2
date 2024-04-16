@@ -1,0 +1,49 @@
+/* основной цвет текста #212121  */
+/* второй цвет текста #757575 */
+/* акцентный цвет #2196F3 */
+/* белый цвет #FFFFFF */
+/* черный цвет #000000 */
+/* белый цвет с прозрачностью rgba (255, 255, 255, .60) */
+/* вторичный цвет фона #F5F4FA */
+:root {
+    --primery-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+
+body {
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+color: var(--primery-text-color);
+background: #FFFFFF;
+}
+
+.header-nav .logo {
+    font-size: 26px; 
+    font-family: Raleway; 
+    font-weight: 700; 
+    letter-spacing: 0.78px; 
+    color: #000000;
+}
+.header-nav .logo-accent {
+    color: var(--accent-color);
+}
+
+.header-list {
+    color: var(--primery-text-color);
+}
+
+.header-address-link {
+color: var(--text-color);
+font-size: 14px; 
+font-weight: 500; 
+letter-spacing: 0.28px; 
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+color: var(--accent-color);
+}
